@@ -215,3 +215,5 @@ FakesAssemblies/
 **/*.Server/GeneratedArtifacts
 **/*.Server/ModelManifest.xml
 _Pvt_Extensions
+TP5 PG/deps/nana_1.6.1/lib/nana_v141_Debug_x86.lib
+TP5 PG/deps/nana_1.6.1/lib/nana_v141_Release_x86.lib
