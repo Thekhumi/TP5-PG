@@ -8,6 +8,9 @@ Utilizar objetos como scores en si es un poco incómodo, no hay funciones para ma
 Tampoco hay una forma de devolver 1 score en particular del vector, ni se puede manejar el manager en si.(Funciones
 como quitar score, añadir score sin necesidad de un objeto, resetear la lista de scores,etc)
 
+No se puede acceder ni al valor del score, ni al nombre, y scoreManager devuelve un objeto score, que tiene el mismo
+problema.
+
 Problemas al utilizar la libreria:
 Nana funciona correctamente, al incluir la libreria de scoreManager hay errores de linkeo, probe usando las librerias
 que vienen en la descarga y tambien genere las .lib usando los .cpp y .h, ningun método soluciono el problema.
