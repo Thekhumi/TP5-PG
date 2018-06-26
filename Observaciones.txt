@@ -1,0 +1,22 @@
+El Manager de scores incluido provee la clase score y ScoreManager, la primera es una clase con 2 atributos, puntaje y 
+nombre con setters para manipular el score. Ambas entidades actuan por separado. ScoreManager tiene un vector de scores al
+que podes enviar objetos score para añadirlos al vector, una funcion para recibir el score mas alto y una que devuelve 
+todo el vector de scores.
+
+Notas:
+Utilizar objetos como scores en si es un poco incómodo, no hay funciones para manejar el score.
+Tampoco hay una forma de devolver 1 score en particular del vector, ni se puede manejar el manager en si.(Funciones
+como quitar score, añadir score sin necesidad de un objeto, resetear la lista de scores,etc)
+
+Problemas al utilizar la libreria:
+Nana funciona correctamente, al incluir la libreria de scoreManager hay errores de linkeo, probe usando las librerias
+que vienen en la descarga y tambien genere las .lib usando los .cpp y .h, ningun método soluciono el problema.
+
+Problemas para configuracion release:
+Error de generacion de codigo (LNK1257)
+y 
+C1007, impiden que compile/linkee el programa.
+Debug funciona correctamente.
+
+-------------------------/ANTES DE COMPILAR/-------------------------
+Los archivos .lib no se incluyen en el github, vienenen en un zip, descomprimir en el lugar antes de compilar.
